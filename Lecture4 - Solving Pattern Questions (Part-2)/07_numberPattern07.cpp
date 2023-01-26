@@ -8,21 +8,21 @@ int main()
     cout << "Pattern :\n";
     int i = 1, c = 1;
     cout << endl;
-    // Method 1 [ using an integer variable c ]
-    while (i <= n)
-    {
-        int j = 1;
-        c = i;
-        while (j <= i)
-        {
-            cout << c
-                 << " ";
-            j++;
-            c++;
-        }
-        cout << endl;
-        i++;
-    }
+    // // Method 1 [ using an integer variable c ]
+    // while (i <= n)
+    // {
+    //     int j = 1;
+    //     c = i;
+    //     while (j <= i)
+    //     {
+    //         cout << c
+    //              << " ";
+    //         j++;
+    //         c++;
+    //     }
+    //     cout << endl;
+    //     i++;
+    // }
     // // Method 2 [ without using an variable c ]
     // while (i <= n)
     // {
@@ -36,6 +36,19 @@ int main()
     //     cout << endl;
     //     i++;
     // }
+    // Method 3
+    while (i <= n)
+    {
+        int j = 1;
+        while (j <= i)
+        {
+            cout << i + j - 1
+                 << " ";
+            j++;
+        }
+        cout << endl;
+        i++;
+    }
 
     // // for equivalent
     // int c = 1;
