@@ -20,14 +20,28 @@ int main()
     //     c++;
     //     i++;
     // }
-    // Method 2
+    // // Method 2
+    // while (i <= n)
+    // {
+    //     int j = 1;
+    //     while (j <= n)
+    //     {
+    //         char ch = 'A' + i + j - 2; // ch = 'A' - 1 + (i + j - 1)
+    //         cout << ch << " ";
+    //         j++;
+    //     }
+    //     cout << endl;
+    //     i++;
+    // }
+    // Method 3
     while (i <= n)
     {
         int j = 1;
+        char start = 'A' + i - 1;
         while (j <= n)
         {
-            char ch = 'A' + i + j - 2; // ch = 'A' - 1 + (i + j - 1)
-            cout << ch << " ";
+            cout << start << " ";
+            start++;
             j++;
         }
         cout << endl;
