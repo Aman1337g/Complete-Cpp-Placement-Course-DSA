@@ -29,7 +29,6 @@ int main()
 /*
 OUTPUT
 
- ; if ($?) { .\21_numberPattern10 }
 4
 Pattern :
 
