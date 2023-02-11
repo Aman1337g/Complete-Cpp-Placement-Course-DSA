@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
     uint32_t n;
-    int count = 0, bits = 32;
+    int count = 0;
     cin >> n;
     while (n != 0)
     {
@@ -18,7 +18,6 @@ int main()
             count++;
         }
         n = n >> 1;
-        // bits--;
     }
     cout << "Number of 1 bits : " << count << endl;
     return 0;
@@ -26,5 +25,6 @@ int main()
 /*
 OUTPUT
 
-
+7
+Number of 1 bits : 3
 */
