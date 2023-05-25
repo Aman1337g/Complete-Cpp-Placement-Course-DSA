@@ -3,10 +3,12 @@ using namespace std;
 
 void reverseArr(int ar[], int size)
 {
-    // for (int i = 0; i < size; i++)
+    // int temp = 0;
+    // for (int i = 0; i < size/2; i++)
     // {
     //     ar[i] = ar[size - i - 1];
     //     // cout << ar[size - i - 1] << " ";  // for printing reverse here only
+    //     ar[size - i - 1] = temp;
     // }
 
     // Method 2 - using start and end pointer
