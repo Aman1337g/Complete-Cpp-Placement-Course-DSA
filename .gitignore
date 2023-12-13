@@ -1,3 +1,7 @@
-*.exe
+*.o
+*.out
+.exe
 *.vscode
 *tempCodeRunnerFile.cpp
+*
+!*.cpp
